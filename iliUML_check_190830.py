@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import re
+#import re
 
 # Open files
 outFile = open("data/Asset_CHBase_mod.uml", "w")
