@@ -3,7 +3,7 @@
 
 # Open files
 outFile = open("data/Asset_CHBase_mod.uml", "w")
-log = open("data/log.txt", "w")
+log = open("data/log.tsv", "w")
 
 # Define Variables
 line_A = 'emptyLine_A'
@@ -11,6 +11,7 @@ line_A = 'emptyLine_B'
 i = 1
 count = 0
 regex = '<Entry TID='
+log.write('LineNum\t' + 'ActionType\t' + 'line string\t' + 'CurrentCount')
 
 with open('data/Asset_CHBase_orig.uml') as inFile:
     for line in inFile:
@@ -35,7 +36,7 @@ with open('data/Asset_CHBase_orig.uml') as inFile:
 
                 # Write to log-file
                 count += 1
-                log.write(str(i) + ' First line deleted. ' + firstLine +' Current count: ' + str(count) + '\n')
+                log.write(str(i) + '\tFirst line deleted.\t' + firstLine + str(count) + '\n')
                 i += 2
 
             else:

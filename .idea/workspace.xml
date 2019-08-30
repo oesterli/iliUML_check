@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0ef491-970c-4de1-8108-e5326ff89bd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Asset_CHBase_mod.uml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/log.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/iliUML_check_190830.py" beforeDir="false" afterPath="$PROJECT_DIR$/iliUML_check_190830.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,8 +120,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567202435769</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Count and log">
+      <created>1567204305062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567204305062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tsv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -168,6 +178,7 @@
     <MESSAGE value="Verion0.9" />
     <MESSAGE value="Input file" />
     <MESSAGE value="Count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count" />
+    <MESSAGE value="Count and log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Count and log" />
   </component>
 </project>
