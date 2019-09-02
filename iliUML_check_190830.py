@@ -2,8 +2,8 @@
 
 
 # Open files
-outFile = open("data/seismic/DM_2D-Seismic_190702_mod.uml", "w")
-log = open("data/seismic/log.tsv", "w")
+outFile = open("data/Asset_CHBase_mod.uml", "w")
+log = open("data/log.tsv", "w")
 
 # Define Variables
 line_A = 'emptyLine_A'
@@ -13,7 +13,7 @@ count = 0
 regex = '<Entry TID='
 log.write('LineNum' + '\t' + 'ActionType' + '\t' + 'lineString' + '\t' + 'CurrentCount' + '\n')
 
-with open('data/seismic/DM_2D-Seismic_190702_orig.uml') as inFile:
+with open('data/Asset_CHBase_orig.uml.uml') as inFile:
     for line in inFile:
         # If the current line starts with the string defined in "regex" do the following
         if line.startswith(regex):
