@@ -13,6 +13,7 @@ count = 0
 regex = '<Entry TID='
 log.write('LineNum' + '\t' + 'ActionType' + '\t' + 'lineString' + '\t' + 'CurrentCount' + '\n')
 
+
 with open('data/Asset_CHBase_orig.uml.uml') as inFile:
     for line in inFile:
         # If the current line starts with the string defined in "regex" do the following
@@ -36,7 +37,9 @@ with open('data/Asset_CHBase_orig.uml.uml') as inFile:
 
                 # Write to log-file
                 count += 1
-                log.write(str(i) + '\t' + 'First line deleted.' + '\t' + firstLine + '\t' + str(count) + '\n')
+                #log.write(str(i) + '\t' + 'First line deleted.' + '\t' + firstLine + '\t' + str(count) + '\n')
+                log.write(str(i) + '\t' + 'First line deleted.' + '\t' + firstLine.strip() + '\t' + str(count) + '\n')
+                
                 i += 2
 
             else:
